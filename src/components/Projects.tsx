@@ -5,52 +5,60 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "Climate Prediction Platform",
+    title: "MammoAI",
     description:
-      "AI-powered platform for regional climate forecasting using ensemble learning and satellite data. Provides actionable insights for agricultural planning and disaster preparedness.",
-    tags: ["Python", "TensorFlow", "React", "PostgreSQL"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+      "MammoAI is a web application built with Django, designed to assist radiologists in predicting and assessing breast cancer from mammogram images. It utilizes advanced machine learning models to determine whether an image is benign or malignant, and generates a heatmap to highlight the affected areas.",
+    tags: ["Python", "TensorFlow", "HTML", "CSS", "Django"],
+    github: "https://github.com/Annor-Gyimah/mammoai",
+    //demo: "https://demo.com",
   },
   {
-    title: "Ocean Current Visualizer",
+    title: "Modelling low-level clouds",
     description:
-      "Interactive 3D visualization tool for ocean currents and temperature patterns. Processes real-time data from buoys and satellite measurements.",
-    tags: ["Three.js", "WebGL", "Python", "Data Analysis"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+      "Modelling the spatio-temporal dynamics of low-level clouds using machine learning algorithms involves harnessing the power of computational techniques to analyze and predict the behavior of these clouds over space and time.",
+    tags: ["Jupyter Notebook", "Tensor flow", "Python", "Data Analysis"],
+    github: "https://github.com/Annor-Gyimah/MODELLING-SPATIO-TEMPORAL-DYNAMICS-OF-LOW-LEVEL-CLOUDS-USING-MACHINE-LEARNING-ALGORITHM",
+    // demo: "https://demo.com",
   },
   {
-    title: "Weather Alert System",
+    title: "ConveTransfer",
     description:
-      "Real-time weather monitoring and alert system using ML to predict severe weather events. Integrates multiple data sources for accurate forecasting.",
-    tags: ["Node.js", "Machine Learning", "APIs", "TypeScript"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+      "A file sharing application made with python package ttkbootstrap . Made with ❤.",
+    tags: ["Software", "Python", "GUI", "File Transfer"],
+    github: "https://github.com/Annor-Gyimah/ConveTransfer",
+    // demo: "https://demo.com",
   },
   {
-    title: "Atmospheric Data Dashboard",
+    title: "OmniPull",
     description:
-      "Comprehensive dashboard for analyzing atmospheric composition, temperature profiles, and climate indicators with advanced visualization tools.",
-    tags: ["React", "D3.js", "Python", "Cloud Computing"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+      "A desktop application for downloading youtube videos, static files, torrent files, etc., you just name it.",
+    tags: ["PySide6", "yt-dlp", "Ffmpeg", "Aria2c", "Python"],
+    github: "https://github.com/Annor-Gyimah/OmniPull",
+    demo: "http://omnipull.pythonanywhere.com",
   },
   {
-    title: "Carbon Footprint Tracker",
+    title: "Country Coord",
     description:
-      "Web application helping individuals and organizations track, analyze, and reduce their carbon emissions with personalized recommendations.",
-    tags: ["React", "Node.js", "MongoDB", "Data Viz"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+      "Get longitude and latitude coordinates of countries that you can use with xarray.",
+    tags: ["Python", "CSV", "Jupyter Notebook"],
+    github: "https://github.com/Annor-Gyimah/country_coord",
+    // demo: "https://demo.com",
   },
   {
-    title: "Satellite Image Classifier",
+    title: "Spatio-temporal dynamics and drivers of extreme rainfall",
     description:
-      "Deep learning model for classifying cloud types and weather patterns from satellite imagery. Achieves 95% accuracy using custom CNN architecture.",
-    tags: ["PyTorch", "Computer Vision", "Python", "GIS"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+      "A SYNOPTIC AND ENSO INDICES ASSESSMENT",
+    tags: ["Python", "Jupyter Notebook", "Xarray", "Numpy"],
+    github: "https://github.com/Annor-Gyimah/SPATIOTEMPORAL-DYNAMICS-AND-CLIMATIC-DRIVERS-OF-EXTREME-PRECIPITATION-EVENTS-IN-GHANA",
+    // demo: "https://demo.com",
+  },
+  {
+    title: "Ambient Weather Station",
+    description:
+      "Dashboard for Ambient weather station data and for accessing data remotely.",
+    tags: ["Django", "Html", "Python", "CSS", "Javascript"],
+    // github: "https://github.com",
+    demo: "http://tidekit.pythonanywhere.com/",
   },
 ];
 

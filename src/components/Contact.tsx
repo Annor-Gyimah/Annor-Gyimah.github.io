@@ -6,20 +6,20 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "contact@climatescience.dev",
-    link: "mailto:contact@climatescience.dev",
+    value: "eannor707@gmail.com",
+    link: "mailto:eannor707@gmail.com",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/yourusername",
+    value: "github.com/Annor-Gyimah",
     link: "https://github.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/yourprofile",
-    link: "https://linkedin.com",
+    value: "linkedin.com/in/annor-gyimah",
+    link: "www.linkedin.com/in/annor-gyimah",
   },
   {
     icon: MapPin,
