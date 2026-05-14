@@ -2,12 +2,12 @@ import { GraduationCap } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const education = [
-  {
-    degree: "Ph.D. in Atmospheric & Ocean Science",
-    institution: "University of Colorado, Boulder",
-    year: "2026 - 2030",
-    description: "Dissertation on machine learning applications in climate modeling and weather prediction systems.",
-  },
+  // {
+  //   degree: "Ph.D. in Atmospheric & Ocean Science",
+  //   institution: "University of Colorado, Boulder",
+  //   year: "2026 - 2030",
+  //   description: "Dissertation on machine learning applications in climate modeling and weather prediction systems.",
+  // },
   {
     degree: "M.S. in Meteorology & Climate Science",
     institution: "Kwame Nkrumah University of Science and Technology",
