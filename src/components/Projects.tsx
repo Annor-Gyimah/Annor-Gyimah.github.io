@@ -5,6 +5,22 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "Chemical Inventory Store",
+    description:
+      "Chemical Inventory Store is a web application built with Django, designed to help users manage and track their chemical inventory efficiently. It provides features for adding, updating, and deleting chemical records, as well as generating reports and alerts for low stock levels.",
+    tags: ["Python", "TypeScript", "HTML", "CSS", "Django"],
+    github: "https://github.com/Annor-Gyimah/chemstore",
+    demo: "https://chemstoreknust.pythonanywhere.com/",
+  },
+  {
+    title: "Hostel Management System",
+    description:
+      "A web application built with Django, designed to help users manage and track their hostel inventory efficiently. It provides features for adding, updating, and deleting hostel records, as well as generating reports and alerts for low stock levels.",
+    tags: ["Python", "TypeScript", "HTML", "CSS", "Django"],
+    github: "https://github.com/Annor-Gyimah/hostel-management-system",
+    demo: "https://annorion.pythonanywhere.com/",
+  },
+  {
     title: "MammoAI",
     description:
       "MammoAI is a web application built with Django, designed to assist radiologists in predicting and assessing breast cancer from mammogram images. It utilizes advanced machine learning models to determine whether an image is benign or malignant, and generates a heatmap to highlight the affected areas.",
@@ -34,7 +50,7 @@ const projects = [
       "A desktop application for downloading youtube videos, static files, torrent files, etc., you just name it.",
     tags: ["PySide6", "yt-dlp", "Ffmpeg", "Aria2c", "Python"],
     github: "https://github.com/Annor-Gyimah/OmniPull",
-    demo: "http://omnipull.pythonanywhere.com",
+    demo: "https://omnipull-web.onrender.com/",
   },
   {
     title: "Country Coord",
